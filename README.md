@@ -6,9 +6,9 @@ figured out:
 color text
 loops
 clear console screen
+sleep
 
 need to figure out: 
-sleep
 read from file
 
 
