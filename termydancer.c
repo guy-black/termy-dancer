@@ -30,6 +30,9 @@ int main () {
         lines[i] [strcspn(lines[i], "\n")] = 0;
     }
 
+// close connection to file since we're done with it now
+    fclose(fpointer);
+
 // given a frame and line number, print that line to stdout
     void printLine (int framnum, int linenum) {
         if (framnum > numFrames){
@@ -73,8 +76,6 @@ int main () {
     }
 
 
-// close our pointers because C
-    fclose(fpointer);
 
     return 0;
 }
