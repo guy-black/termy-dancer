@@ -6,6 +6,7 @@ just slimeboi but written in c so much faster.
 
 
 todo:
+ - figure out why it segfaults if i run it from anywhere besides it's build directory
  - function to verify the animation file is formatted right
  - conf file to specify 
    - how many dancers
