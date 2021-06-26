@@ -61,11 +61,6 @@ int main () {
         struct timespec ts = {0, 100000000L };
 
         nanosleep (&ts, NULL);
-        //if (j >= numFrames) {
-        //    renderFrame (1);
-        //} else {
-        //    renderFrame (j+1);
-        //}
     }
 
     while (1) {
