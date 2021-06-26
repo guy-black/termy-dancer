@@ -1,18 +1,11 @@
-* HOLD ME CLOSER TERMY DANCERRRRR
-** or whatever elton john said
+# HOLD ME CLOSER TERMY DANCERRRRR
+## or whatever elton john said
+
+just slimeboi but written in c so much faster.
 
 
-figured out: 
-color text
-loops
-clear console screen
-sleep
 
-need to figure out: 
-read from file
-
-
-todo after the bare minimum:
+todo:
  - function to verify the animation file is formatted right
  - conf file to specify 
    - how many dancers
