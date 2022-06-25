@@ -59,7 +59,12 @@ int main () {
             printLine ((framnum + 20), j);
             printf (CYN);
             printLine ((framnum + 25), j);
+            //if (j==(linespf-1)){
+            //    printf ("%s", reset);
+            //}else{
             printf ("%s\n", reset);
+            //}
+            //idk how to make the new line not there on the last line
         }
         struct timespec ts = {0, 100000000L };
 
